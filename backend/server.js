@@ -16,7 +16,7 @@ app.use('/schoolImages', express.static(path.join(__dirname, 'schoolImages')));
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '786Ghufran#',
+    password: 'password',
     database: 'schoolDB'
 });
 
